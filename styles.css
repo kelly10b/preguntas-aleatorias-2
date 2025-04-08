@@ -1,0 +1,22 @@
+/* Botón separado */
+#siguiente-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Colores de respuesta */
+  .correcta {
+    background-color: #4caf50 !important;
+    color: white;
+  }
+  
+  .incorrecta {
+    background-color: #f44336 !important;
+    color: white;
+  }
+  
+  .opcion:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+  }
+  

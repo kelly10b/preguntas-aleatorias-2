@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Juego de Preguntas</h1>
+    <div id="materia-selector">
+      <label for="materia">Selecciona una materia:</label>
+      <select id="materia">
+        <option value="matematicas">Matemáticas</option>
+        <option value="historia">Historia</option>
+        <option value="ciencia">Ciencia</option>
+      </select>
+      <button onclick="iniciarJuego()">Comenzar</button>
+    </div>
+
+    <div id="juego" class="hidden">
+      <p id="pregunta"></p>
+      <div id="respuestas"></div>
+      <button onclick="siguientePregunta()">Siguiente</button>
+      <p id="feedback"></p>
+      <p id="puntaje">Puntaje: 0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
